@@ -1,0 +1,91 @@
+body {
+  box-sizing: border-box;
+}
+.navigation {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #7c7c7c;
+  transition: 0.4;
+}
+a:hover {
+  color: #03a9f4;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Playfair Display";
+  font-weight: 500;
+  margin-top: 77px;
+  margin-bottom: 103px;
+}
+.one {
+  margin-right: 121px;
+}
+.two {
+  margin-right: 103px;
+}
+.three {
+  margin-right: 95px;
+}
+
+.four {
+  margin-right: 126px;
+}
+.container {
+  max-width: 920px;
+  margin: auto;
+}
+.content {
+  display: inline-block;
+  max-width: 420px;
+  margin-right: 60px;
+  margin-bottom: 130px;
+}
+
+.content:nth-child(2n + 2) {
+  margin-right: 0px;
+}
+
+.name {
+  text-transform: uppercase;
+  padding-bottom: 12px;
+  padding-top: 16px;
+  font-family: "Ubuntu", sans-serif;
+  color: #c8c3b8;
+  font-weight: 300;
+}
+
+.heading {
+  padding-bottom: 14px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+}
+
+.text {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.button {
+  text-align: center;
+}
+
+.main-button {
+  color: #626262;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding: 22px 34px;
+  margin-bottom: 70px;
+}
+
+.content:nth-last-child(-n + 2) {
+  margin-bottom: 53px;
+}
+
+
